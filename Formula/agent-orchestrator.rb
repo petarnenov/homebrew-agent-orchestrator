@@ -1,18 +1,18 @@
 class AgentOrchestrator < Formula
   desc "CLI orchestrator for Copilot and Claude execution pipelines"
   homepage "https://github.com/petarnenov/agent-orchestrator"
-  version "0.1.3"
+  version "0.1.4"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/petarnenov/agent-orchestrator/releases/download/v0.1.3/agent-orchestrator-x86_64-apple-darwin.tar.gz"
-      sha256 "a58e42b79317b3a60290eb8a39b1f4110c79654d6a121872058619b440acd1da"
+      url "https://github.com/petarnenov/agent-orchestrator/releases/download/v0.1.4/agent-orchestrator-x86_64-apple-darwin.tar.gz"
+      sha256 "27e073e55591f653646ca5e262c2d4bf8a84a82c316405adb92504b3563d66bf"
     end
 
     on_arm do
-      url "https://github.com/petarnenov/agent-orchestrator/releases/download/v0.1.3/agent-orchestrator-aarch64-apple-darwin.tar.gz"
-      sha256 "2904012148d036ccbfb8aaf4c11b2e2b20fca512a2b4df510ee424e1ab32471c"
+      url "https://github.com/petarnenov/agent-orchestrator/releases/download/v0.1.4/agent-orchestrator-aarch64-apple-darwin.tar.gz"
+      sha256 "0be46daf07381f668c8e8f0f26b1079abff4f6b3ecc5041d26e70868bbc89a72"
     end
   end
 
